@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <!-- HTML Meta Tags -->
+    <meta name="description" content="">
+
+    <!-- Facebook Meta Tags -->
+    <meta property="og:url" content="https://unofficialdxnny.com/projects/movies-suggestions/">
+    <meta property="og:type" content="website">
+    <meta property="og:title" content="unofficialdxnny | Movie Suggestions">
+    <meta property="og:description" content="Can't Think of a Movie to watch? Select your genres and find them here!">
+    <meta property="og:image" content="https://unofficialdxnny.com/Projects/Movies-Suggestions/Assets/Images/Embed.png">
+
+    <!-- Twitter Meta Tags -->
+    <meta name="twitter:card" content="summary_large_image">
+    <meta property="twitter:domain" content="unofficialdxnny.com">
+    <meta property="twitter:url" content="https://unofficialdxnny.com/projects/movies-suggestions/">
+    <meta name="twitter:title" content="unofficialdxnny | Movie Suggestions">
+    <meta name="twitter:description" content="Can't Think of a Movie to watch? Select your genres and find them here!">
+    <meta name="twitter:image"
+        content="https://unofficialdxnny.com/Projects/Movies-Suggestions/Assets/Images/Embed.png">
+
+    <!-- Meta Tags Generated via https://www.opengraph.xyz -->
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>unofficialdxnny | Movie Suggestions</title>
+    <link rel="stylesheet" href="./Assets/CSS/index.css">
+    <link rel="shortcut icon" href="https://unofficialdxnny.com/favicon.png" type="image/x-icon">
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css">
+
+</head>
+
+<body>
+
+    <h1>Select Your Favorite Genres</h1>
+    <div id="genre-selection"></div>
+    <div class="button-container">
+        <button id="get-recommendations" class="secondary-btn">Get Recommendations</button>
+    </div>
+    <h1>Recommended Movies For You</h1>
+    <ul id="recommendations"></ul>
+
+
+    <div id="movie-modal" class="modal">
+        <div class="modal-content">
+            <span class="close">&times;</span>
+            <h2 id="movie-title"></h2>
+            <p id="movie-description"></p>
+            <p>Cast:</p>
+            <ul id="movie-cast"></ul>
+        </div>
+    </div>
+
+
+    <!-- Add the Settings Icon -->
+    <!-- <i id="settings-icon" class="fas fa-cog"></i>
+
+    <div id="settings-modal" class="modal">
+        <div class="modal-content">
+            <span class="close">&times;</span>
+            <h2>Settings</h2>
+            <label for="netflix-toggle">Show only Netflix movies:</label>
+            <input type="checkbox" id="netflix-toggle">
+        </div>
+    </div> -->
+
+    <script src="./Assets/JS/index.js"></script>
+</body>
+
+</html>
